@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  * {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+    cursor: default;
+  }
+  body{
+    background-color: rgb(243 244 246 );
+    /* overflow-x: hidden; */
+  }
+  li {
+    @apply inline-block px-5 cursor-pointer text-gray-700 transition-all duration-500
+  }
+  button{
+    @apply text-white border border-indigo-700 rounded-lg transition-all duration-500 bg-indigo-500 
+    hover:bg-transparent hover:text-indigo-500
+  }
+}

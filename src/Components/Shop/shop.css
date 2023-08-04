@@ -1,0 +1,8 @@
+.add{
+    transition: .6s;
+}
+.add:hover{
+    transform: scale(1.03);
+    color: white;
+    background-color: rgb(99 102 241);
+}

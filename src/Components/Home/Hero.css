@@ -1,0 +1,30 @@
+/* .img{
+    background-image: url("../../Assets/home_clothes.png");
+} */
+.product-card{
+    border: 2px solid transparent;
+    transition: .6s;
+}
+.product-card:hover{
+    transform: scale(1.04);
+    border: 2px solid #ba90da73;
+}
+.card{
+    transition: .6s;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.card1{
+    transition: .6s;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.card1:hover{
+    border: 2px solid #ba90da;
+}
+.card:hover{
+    transform: scale(1.06);
+    border: 2px solid #ba90da;
+    background-color: #ba90da46;
+}
+

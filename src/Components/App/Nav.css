@@ -1,0 +1,16 @@
+.logo{
+    color: #ba90da;
+}
+li:hover{
+    color: #ba90da;
+    transform: scale(1.04);
+}
+.more{
+    color: gray;
+    transition: .7s;
+}
+.more:hover{
+    transform: scale(1.04);
+
+    color: #ba90da;
+}
